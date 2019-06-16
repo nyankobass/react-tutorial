@@ -7,14 +7,14 @@ interface SquareProps {
 }
 
 /* State Less な Component は関数で表現できる */
-export default function Square(props:SquareProps){
+export default function Square(props: SquareProps) {
   return (
-      <button className="square" onClick={() => {
-          props.onClick();
-        }}>
-        {props.value}
-      </button>
-    );    
+    <button className="square" onClick={() => {
+      props.onClick();
+    }}>
+      {props.value}
+    </button>
+  );
 }
 
 /* クラスで表現する必要はない */
