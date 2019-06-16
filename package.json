@@ -27,5 +27,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.2"
   }
 }
